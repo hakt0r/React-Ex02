@@ -8,7 +8,7 @@ that is connected to a function that will alert("You clicker")
 when the button is clicked
 
 2. Create a component called **UncontrolledForm**
-let this component return a fragment conatining a **button**
+let this component return a fragment containing a **button**
 and an input field
 
     - Create a {ref} for the input field using React.useRef()
@@ -25,7 +25,7 @@ return an input field of type number and a default value of 23.
     - create a function to handle changes and connect it to the
       **onChange** handler of the input field
     - on every change add one to the current value and call
-      ste setter function from the state.
+      the setter function from the state.
 
 ### `npm install`
 
